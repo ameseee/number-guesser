@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+}
+
+/*HEADER*/
+
+header {
+  background-color: #404041;
+  padding: 8px;
+  margin-bottom: 40px;
+}
+
+span {
+  color: #ed458b;
+  font-weight: 700;
+}
+
+h1 {
+  color: #e6e7e8;
+  text-align: center;
+  font-size: 60px;
+}
+
+/*MAIN*/
+
+main {
+  display: block;
+  margin: auto;
+  width: 40%;
+}
+
+/*USER INPUT SECTION*/
+
+input {
+  display: block;
+  margin: auto;
+  width: 100%;
+  padding: 5px;
+  font-size: 20px;
+  color: #404041;
+}
+
+button {
+  color: #fff;
+  background-color: #929497;
+  display: inline-block;
+  font-size: 20px;
+  padding: 5px 20px;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+}
+
+button:disabled {
+  background-color: #d0d2d3;
+}
+
+button:hover {
+  background-color: #ed458b;
+}
+
+.small-btn {
+  width: 45%;
+  margin-top: 25px;
+}
+
+#guess-btn {
+  margin-right: 4.5%;
+  /*something is funky here- why can't i use 5% on both btns? are %s the right way to go here??*/
+}
+
+#clear-btn {
+  margin-left: 4.5%;
+}
+
+#reset {
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+/*INFO GIVEN TO USER*/
+
+h2 {
+  color: #404041;
+  text-align: center;
+  margin: 5px;
+  height: 32px;
+}
+
+#last-guess-text {
+  margin-top: 25px;
+  margin-bottom: 0;
+}
+
+#feedback-text {
+  margin-bottom: 30px;
+}
+
+p {
+  text-align: center;
+  color: #ed458b;
+  font-size: 120px;
+  height: 163px;
+}

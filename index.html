@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <!-- i have read a lot and can still not make sense of this unicode business. why do i need this meta tag?? do i need it? -->
+    <title>Holt's Number Guesser</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,700" rel="stylesheet">
+  </head>
+
+  <body>
+    <header>
+      <h1><span>Number</span> Guesser</h1>
+    </header>
+
+    <main>
+      <section>
+        <input type="text" placeholder="Enter your guess, between 1-100" id="user-input">
+        <button class="small-btn" id="guess-btn" disabled >Guess</button>
+        <button class="small-btn" id="clear-btn" disabled >Clear</button>
+      </section>
+
+      <section>
+        <h2 id="last-guess-text">Time to PLAY!</h2>
+        <p id="pink-number">...</p>
+        <h2 id="feedback-text">You haven't guessed yet!</h2>
+      </section>
+
+      <button id="reset" disabled>Reset</button>
+
+    </main>
+    <script type="text/javascript" src="javascript.js"></script>
+  </body>
+</html>
